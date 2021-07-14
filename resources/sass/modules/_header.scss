@@ -1,0 +1,23 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .navigation{
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        border-radius: 5px;
+        height: 70px;
+        
+        a{
+            text-decoration: none;
+            color: white;
+            border-radius: 50px;
+            border: 2px dotted white;
+            padding : 2%;
+            
+        }
+    }
+}
